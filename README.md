@@ -1,0 +1,2 @@
+# SchoolSearch
+School search wizard
