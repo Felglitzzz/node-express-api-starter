@@ -1,2 +1,2 @@
-# SchoolSearch
-School search wizard
+# node-express-api-starter
+Node, Express, API Starter
