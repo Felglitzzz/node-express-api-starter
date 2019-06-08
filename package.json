@@ -1,0 +1,37 @@
+{
+  "name": "schoolsearch",
+  "version": "1.0.0",
+  "description": "school search wizard",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --watch .env --watch src --exec babel-node index --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felglitzzz/SchoolSearch.git"
+  },
+  "author": "Felix Amande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felglitzzz/SchoolSearch/issues"
+  },
+  "homepage": "https://github.com/Felglitzzz/SchoolSearch#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
